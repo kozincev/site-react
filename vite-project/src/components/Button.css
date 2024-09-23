@@ -1,0 +1,14 @@
+.button{
+    border: none;
+    height: 7vh;
+    text-align:left;
+    font-family: "small_text";
+    font-size: 27px;
+    width: 80%;
+    background: none;
+    color: gray;
+    cursor: pointer;
+}
+
+
+

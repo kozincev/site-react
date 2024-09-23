@@ -1,0 +1,150 @@
+.getInTouch{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.wthit{
+    background: linear-gradient(65.7deg, #2E2BD0 -67.89%, #7876F2 125.28%);
+    width: 95%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+}
+
+.wthit>div{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.bigFtext{
+    color: white;
+    font-family: "small_text";
+    font-size: 75px;
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 13%;
+}
+
+.threeInputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    width: 70%;
+    margin-top: 13%;
+    height: 30%
+}
+
+.threeInputs>input{
+    width: 100%;
+    height: 33%;
+    border-style: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    font-family: "small_text";
+    font-size: 25px;
+}
+
+.threeInputs>input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mfbutton{
+    width: 20%;
+    height: 5%;
+    margin-left: 13%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mfbutton>p{
+    font-family: "small_text";
+    color: #2E2BD0;
+}
+
+.mfbutton>img{
+    width: 18px;
+    height: 18px;
+}
+
+.alotOfText{
+    font-family: "small_text";
+    color: white;
+    margin-top: 17%;
+    margin-left: 13%;
+    font-size: 16px;
+    width: 76%;
+}
+
+.not{
+    margin-top: 0%;
+}
+
+.mfbutton2{
+    margin-left: 13%;
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6%;
+    background: none;
+    border-style: none;
+    border: 2px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mfbutton2>p{
+    color: white;
+    font-family: "small_text";
+    font-size: 17px;
+}
+
+.mfbutton2>img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5%;
+}
+
+.lastForToday{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+.lastForToday>input{
+    width: 100%;
+    height: 33%;
+    border-style: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    font-family: "small_text";
+    font-size: 25px;
+}
+
+.lastForToday>input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.lastForToday>img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 33%;
+    margin-top: 6.7%;
+    cursor: pointer;
+}

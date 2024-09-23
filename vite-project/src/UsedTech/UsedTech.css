@@ -1,0 +1,132 @@
+.usedTech{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.workspaceUT{
+    width: 85%;
+    height: 80%;
+}
+
+.titleUT{
+    font-size: 45px;
+    color: black;
+    font-family: "small_text";
+}
+
+.descUT{
+    color: gray;
+    font-family: "small_text";
+    font-size: 18px;
+    height: 14%;
+    width: 43%;
+    position: relative;
+    top: 15%;
+    left: 45%;
+}
+
+.line{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 30%;
+}
+
+.linespace{
+    width: 100%;
+    height: 30%;
+}
+
+.lineitself{
+    width: 100%;
+    height: 1%;
+    background-color: #93969B;
+    position: absolute;
+    margin-top: 2.5%;
+    z-index: 0;
+}
+
+.lessspace{
+    width: 87.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonoff{
+    width: 1.2%;
+    height: 20%;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    transition: all ease 1s;
+    border-style: none;
+    border: 7px gray solid;
+}
+
+.buttonon{
+    width: 2.3%;
+    height: 40%;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    transition: all ease 1s;
+    border: 7px #CBCAF3 solid;
+
+}
+
+.textspace{
+    width: 99%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoff{
+    color: gray;
+    font-family: "small_text";
+    font-size: 15px;
+    height: 80%;
+    width: 13%;
+    transition: all ease 3s;
+}
+
+.texton{
+    color: black;
+    font-family: "small_text";
+    font-size: 18px;
+    height: 80%;
+    width: 13%;
+    transition: all ease 3s;
+}
+
+.js_icon{
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    position: relative;
+    bottom: 10px;
+    transition: all ease 3s;
+}
+
+.js_icon1{
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    bottom: 0px;
+    transition: all ease 3s;
+}
+
+.icon_space{
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    height: 8vh;
+}
